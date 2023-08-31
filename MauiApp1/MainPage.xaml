@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+    <TableView Intent="Menu"
+               HorizontalOptions="Center">
+        <TableRoot Title="TableRoot Title Text">
+            <TableSection Title="TableSection Title Text">
+                <TextCell Text="TextCell Text"
+                          Detail="TextCell Detail" />
+                <EntryCell Label="EntryCell Label"
+                           Placeholder="EntryCell Placeholder" />
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</ContentPage>
